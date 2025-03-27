@@ -1,5 +1,5 @@
-import movies from "./Array";
-export default function Card() {
+// import movies from "./Array";
+export default function Card({ movies }) {
   console.log(movies);
   return (
     <>
